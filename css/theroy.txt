@@ -1,0 +1,11 @@
+Websites look plain
+no colors
+no spacing
+no design
+
+|Technology | Purpose|
+|-----------|--------|
+|  HTML.    | Structure|
+|   css     | Styling |
+
+Examples
