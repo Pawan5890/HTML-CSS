@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--Modern HTML5 Document-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--========================-->
+<!--Figure & Figcaption-->
+<!--========================-->
+    <figure>
+        <img 
+        src="photo6.jpeg" 
+        alt="Placeholder Image"
+        width="400">
+        <figcaption>
+            Beautiful Nature Landscape image</figcaption>
+    </figure>
+    <hr>
+<!--========================-->
+<!--Expandable Section-->
+<!--========================-->
+<h2>Expandable FAQ Section</h2> 
+<!-- 
+<details> Creates expandable area
+<summary> is clickable title-->
+<details>
+    <summary>What is HTML?</summary>
+    <p>HTML stands for HyperText Markup Language. It is the standard language used to create and design web pages. HTML provides the structure and content of a webpage, allowing developers to organize text, images, links, and other elements.</p>
+    
+</details>
+<br>
+
+<!--Progress-->
+<section>
+<p>Html course progress</p>
+<progress value="70" max="100">70%</progress>
+
+<p>project upload progress:</p>
+<progress value="30" max="100">30%</progress>
+</section>
+<!--<meter> Displays measurement-->
+    <p>Battery Level:</p>
+    <meter value="0.8">80%</meter>
+    <br><br>
+    <p>Student Performance:</p>
+    <meter
+        value="85"
+        min="0"
+        max="100"
+        low="50"
+        high="90"
+        optimum="100"></meter>
+<!--<Canvas> used for drawing graphics
+    canvas itself is blank.
+    Javascript draws inside it.
+    -->
+    <section>
+        <p>Canvas Example:</p>
+    <canvas 
+        id="mycanvas"
+        width="400"
+        height="200"
+        style="border:1px solid #000000;">
+    </canvas>
+<!--BasicJavascript for Drawing
+    Inside Canvas
+-->
+    <script>
+        const canvas = document.getElementById('mycanvas');
+        const ctx = canvas.getContext('2d');
+        // Draw a rectangle
+        ctx.fillStyle = 'lightblue';
+        ctx.fillRect(250, 100, 150, 100);
+    </script>
+
+    </section>
+
+    <!--Special symbols-->
+    <p>Special Symbols:</p>
+    <section>
+        <p> Less than symbol: &lt;</p>
+        <p>Greater than symbol: &gt;</p>
+        <p>copyright symbol: &copy;</p>
+        <p>Trademark symbol: &reg;</p>
+        <p>Non-breaking space: &nbsp;</p>
+        <p>Hello&nbsp;&nbsp;&nbsp;world</p>
+    </section>
+    <hr>
+    <section>
+    <h2>Special Characters</h2>
+    <p>Currency symbols:</p>
+    <ul>
+        <li>Dollar: &#36;</li>
+        <li>Euro: &#8364;</li>
+        <li>Pound: &#163;</li>
+        <li>Yen: &#165;</li>   
+    </ul>
+    </section>
+    <hr>
+    
+
+</body>
+</html>
