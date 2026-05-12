@@ -21,7 +21,7 @@
             required
             minlength="3"
         ><br><br>
-        <!--password
+        <!--password -->
         <label for="password">Password:</label><br>
         <input
             type="password"
@@ -30,10 +30,62 @@
             placeholder="Enter your password"
             required
             minlength="6"
-        ><br><br> -->
+        ><br><br> 
         <!--submit button-->
         <input type="submit" value="Login">
+        <br><br>
+<!--========================-->
+<!--Date of Birth-->
+<!--========================-->
+    <label for="dob">Date of Birth:</label><br> 
+    <input type="date" id="dob" name="dob" required>
+    <br><br>
 
+    <!-- Gender (Radio)-->
+<p>Gender:</p>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label> 
+        <br><br>
+        <!--Hobbies (Checkboxes)-->
+<p>Hobbies:</p>
+        <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+        <label for="hobby1">Reading</label>
+
+        <input type="checkbox" id="hobby2" name="hobbies" value="traveling">
+        <label for="hobby2">Music</label>
+
+        <input type="checkbox" id="hobby3" name="hobbies" value="cooking">
+        <label for="hobby3">Sports</label>
+        <br><br>
+<!--Dropdown List-->
+    <label for="Course">Select Course:</label><br>
+    <select id="Course" name="Course" required>
+        <option value="">--Select--</option>
+        <option value="course1">B.tech</option>
+        <option value="course2">M.tech</option>
+        <option value="course3">PhD</option>
+    </select>
+    <br><br>
+    <!--File Upload-->
+    <label for="resume">Upload Resume:</label>
+    <input 
+        type="file" 
+        id="resume" 
+        name="resume">
+    <br><br>
+    <!--Text Area-->
+    <label for="bio">Short Bio:</label><br>
+    <textarea 
+        id="bio" 
+        name="bio" 
+        rows="4" 
+        cols="30"
+        placeholder="Write About Yourself...."></textarea>
+    <br><br>
     </form>
 </body>
 </html>
